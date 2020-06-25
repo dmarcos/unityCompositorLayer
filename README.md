@@ -1,6 +1,6 @@
 ## OVRLayer Simple Example
 
-Simple example of a compositor layer displaying a large texture (1988x3056) in Unity :collision:
+[Simple Unity scene](https://github.com/dmarcos/unityCompositorLayer/blob/master/unity/Assets/Scenes/OVROverlaySimple.unity) of a compositor layer displaying a large texture (1988x3056) :collision:
 
 <img src="https://user-images.githubusercontent.com/39342/85676164-34208300-b67b-11ea-9b9d-8ba3ccd0f333.jpg" width="320">
 
