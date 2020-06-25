@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Text
+  - Canvases
+  - Overlay
+  - Container Focus Indicator
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - Comments
+  - Threads
+  - WebView
+  - Modal
+  - Book
+  - LaserPointer
+  - Comic
+  - UI Main
+  - UI Right
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Player
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Media
+    uniqueID: 2077734563
+    locked: 0
+  - name: Text
+    uniqueID: 3699455829
+    locked: 0
+  - name: Layer 2 (Modal)
+    uniqueID: 1353263029
+    locked: 0
+  - name: Laser
+    uniqueID: 2838379545
+    locked: 0
