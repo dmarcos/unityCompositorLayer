@@ -9,7 +9,6 @@ public class OverlayControls : MonoBehaviour
 {
     public Transform cameraVR;
     public Transform overlay;
-    public Transform quad;
 
     public GameObject overlayGameObject;
     public bool mipMaps = false;
@@ -56,14 +55,12 @@ public class OverlayControls : MonoBehaviour
         transform.localPosition = cameraVR.TransformPoint(new Vector3(0, 0, 0.01f));
         transform.rotation = Quaternion.LookRotation(transform.localPosition - cameraVR.position);
 
-        quad.localPosition = new Vector3(0, 0, distance);
         overlay.localPosition = new Vector3(0, 0, distance);
     }
 
     private void Zoom(float delta)
     {
         distance += delta;
-        quad.localPosition = new Vector3(0, 0, distance);
         overlay.localPosition = new Vector3(0, 0, distance);
     }
 
@@ -87,7 +84,7 @@ public class OverlayControls : MonoBehaviour
         {
             useSuperSample = !useSuperSample;
             overlayGameObject.GetComponent<OVROverlay>().useExpensiveSuperSample = useSuperSample;
-            Debug.Log("Super Sample " + useSuperSample);
+            Debug.Log("XXX Super Sample " + useSuperSample);
             return;
         }
 
