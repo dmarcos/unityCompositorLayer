@@ -8,7 +8,7 @@ Controls:
 
 - Thumbstick to recenter layer.
 - Thumbstick up / down to move layer farther / closer.
-- A button to toggle layer super sampling.
+- `A` button to toggle layer super sampling.
 
 ## Code
 
