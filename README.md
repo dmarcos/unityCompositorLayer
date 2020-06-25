@@ -1,6 +1,6 @@
 ## OVRLayer Simple Example
 
-[Simple Unity scene](https://github.com/dmarcos/unityCompositorLayer/blob/master/unity/Assets/Scenes/OVROverlaySimple.unity) of a compositor layer displaying a [large image](https://github.com/dmarcos/unityCompositorLayer/blob/master/unity/Assets/StreamingAssets/spidermanSingle.jpg) (1988x3056)
+[Simple Unity scene](https://github.com/dmarcos/unityCompositorLayer/blob/master/unity/Assets/Scenes/OVROverlaySimple.unity) with a compositor layer displaying a [large image](https://github.com/dmarcos/unityCompositorLayer/blob/master/unity/Assets/StreamingAssets/spidermanSingle.jpg) (1988x3056)
 
 <img src="https://user-images.githubusercontent.com/39342/85676164-34208300-b67b-11ea-9b9d-8ba3ccd0f333.jpg" width="320">
 
@@ -24,4 +24,4 @@ Set Mip Maps component property to `true` to generate texture mip maps.
 
 ### [OVROverlay.cs](https://github.com/dmarcos/unityCompositorLayer/blob/master/unity/Assets/Oculus/VR/Scripts/OVROverlay.cs) (Supplied by Oculus)
 
-It initializes and submits layers.
+It manages and submits compositor layers.
