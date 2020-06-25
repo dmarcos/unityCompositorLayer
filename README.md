@@ -14,10 +14,12 @@ Controls:
 
 Relevant logic is contained in two files:
 
-### OverlayControls.cs
+### [OverlayControls.cs](https://github.com/dmarcos/unityCompositorLayer/blob/master/unity/Assets/OverlayControls.cs#L43)
 
-Input controls and texture initialization passed to OVROverlay. Set Mip Maps component property to true to generate texture mip maps.
+Input controls and texture initialization passed to OVROverlay. 
 
-### OVROverlay.cs (Supplied by Oculus)
+Set Mip Maps component property to `true` to generate texture mip maps.
+
+### [OVROverlay.cs](https://github.com/dmarcos/unityCompositorLayer/blob/master/unity/Assets/Oculus/VR/Scripts/OVROverlay.cs) (Supplied by Oculus)
 
 It initializes and submits layers.
