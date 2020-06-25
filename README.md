@@ -1,5 +1,7 @@
 ## OVRLayer Simple Example
 
+<img src="https://user-images.githubusercontent.com/39342/85676164-34208300-b67b-11ea-9b9d-8ba3ccd0f333.jpg" width="320">
+
 Simple example of a compositor layer displaying a large texture (1988x3056) in Unity.
 
 Controls:
