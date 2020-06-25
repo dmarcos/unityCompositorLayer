@@ -46,7 +46,7 @@ public class OverlayControls : MonoBehaviour
         overlayComponent.textures[0] = pageTexture;
         overlayComponent.textures[0].hideFlags = HideFlags.HideAndDontSave;
         Debug.Log("XXX TEXTURE " + overlayComponent.textures[0].width + " " + overlayComponent.textures[0].height);
-
+        Recenter();
         www.Dispose();
     }
 
